@@ -17,7 +17,9 @@ common_SRC_FILES := \
 	hash.c
 
 common_CFLAGS := -std=gnu89 -fvisibility=hidden ## -fomit-frame-pointer
-common_C_INCLUDES += $(LOCAL_PATH)/../include
+common_C_INCLUDES += \
+	$(LOCAL_PATH)/../include \
+	$(LOCAL_PATH)/..
 
 include $(CLEAR_VARS)
 LOCAL_CLANG := true
