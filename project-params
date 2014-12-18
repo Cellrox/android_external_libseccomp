@@ -21,6 +21,7 @@
 # hosts, and for debugging.
 
 ignore_change_params() {
+	add_ignore_change Ibd69404202474b43b4393c3b0a60004427bc4d6f # Makefile bug fix: Clean bogus use of make variables
 	add_ignore_change I7eac7c0f32f955eb4d1d570c72090597f8af49be # add hiding missing h files to libseccomp package
 	add_ignore_change I177947cee190d4f4e4694e8585e37bde68b04ecd # add libseccomp to build
 }
