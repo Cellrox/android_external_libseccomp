@@ -20,7 +20,7 @@ tags
 /build-aux
 /config.*
 /configure
-/configure.h*
+#/configure.h*
 /libtool
 /m4
 /stamp-h1
